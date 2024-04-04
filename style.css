@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+  }
+  
+  
+  .sample {
+    width: 100%;
+    height: 100vh;
+    background-color: wheat;
+   text-align: center;
+   padding-top: 20px;
+   
+  
+  }
+  
+  .sample_title {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  
+  }   
+  
+  .sample_item {
+    width: 92%;
+    height: 500px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; }
+  
+      .sample_item1 {
+        width: 46%;
+        height: 450px;
+        box-shadow: -1px 2px 23px -3px rgba(0,0,0,0.68);
+  -webkit-box-shadow: -1px 2px 23px -3px rgba(0,0,0,0.68);
+  -moz-box-shadow: -1px 2px 23px -3px rgba(0,0,0,0.68);
+      }
+  
+      .sample_item2 {
+        width: 46%;
+        height: 450px;
+        box-shadow: -1px 2px 23px -3px rgba(0,0,0,0.68);
+  -webkit-box-shadow: -1px 2px 23px -3px rgba(0,0,0,0.68);
+  -moz-box-shadow: -1px 2px 23px -3px rgba(0,0,0,0.68);
+      }
+  
+      .sample_item11 {
+        width: 100%;
+        height: 300px;
+        background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg);
+        background-size: cover;
+      }
+  
+      .sample_item12 {
+        width: 100%;
+        height: 150px;
+        background-color:aliceblue;
+       
+      }
+  
+      .sample_item21 {
+        width: 100%;
+        height: 300px;
+        background-image: url(https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014_1280.jpg);
+        background-size: cover;
+      }
+  
+      .sample_item22 {
+        width: 100%;
+        height: 150px;
+        background-color:aliceblue;
+      }
+  
+     .sample_item1 h1,p {
+     text-align: left;
+      padding-top: 20px;
+    }
+    .sample_item2 h1,p {
+      text-align: left;
+       padding-top: 20px;
+     }
+  .bi{
+  
+  }

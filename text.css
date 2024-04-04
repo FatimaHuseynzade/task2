@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.box{
+width: 100%;
+height: 200vh;
+background-color: antiquewhite;
+padding: 20px;
+}
+
+.box_title{
+    width: 100%;
+    height: 200vh;
+    display: flex;
+gap: 30px;
+padding: 20px;
+ }
+    
+
+.box1 {
+    width: 50%;
+    height: 200vh;
+    background-color: rgb(97, 88, 88);
+   position: relative;
+}
+.box2 {
+    width: 50%;
+    height: 200vh;
+    background-color: white;
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+  
+}
+.box21 {
+    width: 100%;
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+.box22 {
+    width: 100%;
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+.foto {
+    width: 100%;
+    height: 350px;
+    background-image: url(https://www.w3schools.com/w3images/avatar_hat.jpg);
+    background-size: cover;
+    position: absolute;
+    bottom: 100;
+    top: 0;
+    
+}
+
